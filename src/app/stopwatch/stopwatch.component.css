@@ -1,0 +1,67 @@
+
+:host {
+    display: block;
+    background-color: #0c5350;
+    height: 100vh;
+    color: #fff;
+  }
+  .container {
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+  
+  
+  .display-4 {
+    color: #ffb3ff;
+    margin-bottom: 30px;
+  }
+  
+  .timer-display {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 20px;
+  }
+  
+  .time-part {
+    width: 100px;
+    text-align: center;
+  }
+  
+  .time-labels {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn-pink {
+    background-color: #ff66ff;
+    border: none;
+    color: #fff;
+  }
+  
+  .btn-pink:hover {
+    background-color: #ff33ff;
+  }
+  
+  .btn-dark {
+    background-color: #333;
+    border: none;
+    color: #fff;
+  }
+  
+  .btn-dark:hover {
+    background-color: #555;
+  }
+  
