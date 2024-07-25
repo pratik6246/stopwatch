@@ -1,0 +1,17 @@
+<div class="container">
+    <h1 class="display-4">Online Timer & Stopwatch</h1>
+    <div class="timer-display">
+      <span class="time-part">{{ minutes }}</span>:<span class="time-part">{{ seconds }}</span>:<span class="time-part">{{ centiseconds }}</span>
+    </div>
+    <div class="time-labels">
+      <span>Minutes</span>
+      <span>Seconds</span>
+      <span>Centiseconds</span>
+    </div>
+    <div class="button-group">
+      <button class="btn btn-pink m-1" (click)="startPause()">{{ running ? 'Pause' : 'Start' }}</button>
+      <button class="btn btn-dark m-1" (click)="stop()">Stop</button>
+      <button class="btn btn-dark m-1" (click)="reset()">Reset</button>
+    </div>
+  </div>
+  
